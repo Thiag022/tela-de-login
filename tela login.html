@@ -5,53 +5,24 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>tela de login</title>
-        <style>
-            body{
-                font-family: Arial, Helvetica, sans-serif;
-                background-image: linear-gradient(45deg, rgb(30, 212, 152),blue);
-            }
-
-            div{
-                background-color: rgb(0, 0, 0,0.8);
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                padding: 80px;
-                border-radius: 15px;
-                color: white;
-            }
-input{
-    padding: 15px;
-    border: none
-    otline:none
-    font-size: 15px
-}
-button{
-    background-color: dodgerblue;
-    border: none;
-    padding:15px;
-    border-radius: 10px;
-width: 100%;
-font-size: 15px;
-
-}
-button:hover{
-    background-color: rgb(166, 185, 192);
-}
-        </style>
+       <link rel="stylesheet" href="tela-login.css">
     </head>
         <body>
             <div >
                 <h1>login</h1>
-<input type="text" placeholder="nome">
+                <form >
+                    <input type="text" placeholder="nome" />
+                    <br> <br>
+                    <input type="password" placeholder="senha"/>
+                    <br> <br>
+                    <button type="submit">enviar</button>
+
+                </form>
+                
+
 <br> <br>
-<input type="password" placeholder="senha">
+<a>ainda não posuui um cadastro?</a>
 <br> <br>
-<button>enviar</button>
-<br> <br>
-<link>ainda não posuui um cadastro?</link>
-<br> <br>
-<link>esqueceu a senha?</link>
+<a href="registrar.html">esqueceu a senha?</a>
         </body>
 </html>
